@@ -1,0 +1,46 @@
+/* Стили для index.html */
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color:#2077c9;
+    --accent-bg-color:#ffffff;
+}
+
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+.list{
+    list-style: none;
+}
+.site-nav .link {
+color:var(--accent-color);
+}
+/* Site nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--title-text-color);
+}
+.section-title{
+    color: var(--title-text-color);
+}
+.clients > .section-title {
+    color: var(--title-text-color);
+}
+.feature list .title{
+    color: var(--title-text-color);
+}
+.button {
+    color:var(--title-text-color);
+    background-color: var(--accent-bg-color);
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--accent-bg-color);
+}
+.button.secondary {
+    color:var(--accent-color);
+    background-color:var(--accent-bg-color);
+}
+/* Стили для портфолио */
