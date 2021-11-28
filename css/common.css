@@ -11,25 +11,37 @@
 body {
   background-color: #fff;
   font-family: Roboto, sans-serif;
-  font-size: 12;
+  font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
 }
 /* Site nav */
+.logo {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
 .logo .accent {
   color: var(--accent-color);
 }
-.logo .accent:hover,
+/* .logo .accent:hover,
 .logo .accent:hover {
   color: var(--accent-color);
-}
+} */
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
 .site-nav .link {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
 }
-.span {
-  color: (--title-text-color);
+.title-works {
+ var(--title-text-color);
 }

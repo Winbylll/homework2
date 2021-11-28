@@ -9,6 +9,9 @@ ul {
 .section-title {
   color: var(--title-text-color);
   text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
 }
 .clients > .section-title {
   color: var(--title-text-color);
@@ -28,6 +31,10 @@ ul {
 .button {
   color: var(--title-text-color);
   background-color: var(--accent-bg-color);
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
 }
 .button.primary {
   background-color: var(--accent-color);
@@ -43,6 +50,10 @@ ul {
   text-align: center;
   font-size: 900 px;
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 .link:hover {
   color: var(--accent-color);
@@ -56,4 +67,11 @@ ul {
 }
 .link {
   color: var(--title-text-color);
+}
+.title-details {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
 }
